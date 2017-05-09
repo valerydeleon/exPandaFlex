@@ -40,20 +40,18 @@ function ocultarOrigen(){
   parrafoOrigen.style.visibility="hidden";
 }
 
-
-
 /////* boton Extincion *///////
 
-var botonExtincion = document.getElementById("botonExtincion");
-var parrafoExtincion = document.getElementById("parrafoExtincion");
+var botonExt = document.getElementById("botonExtincion");
+var parrafoExt = document.getElementById("parrafoExtincion");
 
-botonExtincion.addEventListener("click", mostrarExtincion);
-botonExtincion.addEventListener("dblclick", ocultarExtincion);
+botonExt.addEventListener("click", mostrarExtincion);
+botonExt.addEventListener("dblclick", ocultarExtincion);
 
 function mostrarExtincion(){
-  parrafoExtincion.style.visibility="visible";
+  parrafoExt.style.visibility="visible";
 }
 
 function ocultarExtincion(){
-  parrafoExtincion.style.visibility="hidden";
+  parrafoExt.style.visibility="hidden";
 }
