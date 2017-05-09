@@ -1,14 +1,22 @@
 #contenedorparrafo{
-    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 #contenedorparrafo p{
+
     width: 420px;
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
     color: #4D0276; /* morado */
+}
+
+#parrafoOrigen{
+  visibility: hidden;
+}
+
+#parrafoExtincion{
+  visibility: hidden;
 }
