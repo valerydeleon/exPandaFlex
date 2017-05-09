@@ -5,7 +5,7 @@
     padding-bottom: 30px;
 }
 
-#contenedorBoton .boton{
+#contenedorBoton button{
     background-color: #68D9B0; /*aqua*/
     color: #fff;
     font-weight: 100;
@@ -15,6 +15,6 @@
     font-size: 15px;
 }
 
-#contenedorBoton .boton:hover{
+#contenedorBoton button:hover{
     background-color: #FE316B;
 }

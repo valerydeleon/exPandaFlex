@@ -4,7 +4,7 @@
     flex-wrap: wrap;
 }
 
-#contenedorparrafo .parrafo{
+#contenedorparrafo p{
     width: 420px;
     padding: 10px;
     margin-left: 20px;
