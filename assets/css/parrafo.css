@@ -1,0 +1,14 @@
+#contenedorparrafo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#contenedorparrafo .parrafo{
+    width: 420px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    color: #4D0276; /* morado */
+}

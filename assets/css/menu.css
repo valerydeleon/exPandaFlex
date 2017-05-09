@@ -1,15 +1,21 @@
 #contenedorMenu{
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
+
+}
+
+header{
     background-color: #FE316B; /*rosa*/
     padding: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 #contenedorMenu .link{
     text-align: center;
     padding: 30px;
-    color: #4D0276; /*morado*/
+    color: #fff; /*morado*/
     font-weight: 900;
 }
 

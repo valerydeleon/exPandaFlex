@@ -3,8 +3,17 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px;
+    margin-top: 80px;
 }
 
 .contenedordeFoto{
-    padding: 20px;
+    padding: 10px;
+}
+
+.cerrar{
+    position: relative;
+    top: -130px;
+    left: 25px;
+    color: #68D9B0;
+    font-size: 30px;
 }

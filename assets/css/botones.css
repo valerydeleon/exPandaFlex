@@ -2,9 +2,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 #contenedorBoton .boton{
-    background-color: #4D0276;
-    padding: 1 0px 50px
+    background-color: #68D9B0; /*aqua*/
+    color: #fff;
+    font-weight: 100;
+    width: 320px;
+    padding:  10px;
+    border: solid 2px;
+    font-size: 15px;
+}
+
+#contenedorBoton .boton:hover{
+    background-color: #FE316B;
 }
