@@ -1,0 +1,10 @@
+#contenedorFotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.contenedordeFoto{
+    padding: 20px;
+}

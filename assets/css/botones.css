@@ -1,0 +1,10 @@
+#contenedorBoton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contenedorBoton .boton{
+    background-color: #4D0276;
+    padding: 1 0px 50px
+}
